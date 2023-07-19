@@ -1,0 +1,177 @@
+\documentclass[11pt]{spidercv}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+\begin{document}
+
+    %%%%%%% Printable mode
+    \PrintableMode
+
+    %----------------------------------------------------------------------------------------
+    %	TOP BAR
+    %----------------------------------------------------------------------------------------
+    \begin{TopBar}{\ColorTextSide}
+        \Name{\ColorHighlight}{Evan Blosser}{Student}{28 years old}
+
+        %%% Contact
+        \SimpleSeparator{\ColorHighlight}
+
+       %% Intro
+       
+       
+        I am an Undergraduate student at OU, finishing my Bachelor's in engineering physics: aerospace design sequence, and applying for a master's in aerospace.
+
+        %%% Contact
+        \TextSeparator{\ColorHighlight}{Contact}
+        \begin{DoubleColumns}
+            \begin{ItemList}{\ColorHighlight}
+                \item [\Large\faAt] \href{mailto:evan.a.blosser-1@ou.edu}{evan.a.blosser-1@ou.edu}
+                \item [\Large\faMobile] (405)-408-7347
+            \end{ItemList}
+            \nextcolumn
+            \begin{ItemList}{\ColorHighlight}
+                \item [\Large\faGithub] \href{https://github.com/romainpc}{Galactikhan}
+                \item [\Large\faHome] {1621 Lenox Dr. Norman, OK}
+            \end{ItemList}
+            
+        \end{DoubleColumns}
+
+    \end{TopBar}
+
+
+
+    %----------------------------------------------------------------------------------------
+    %	SIDE BAR
+    %----------------------------------------------------------------------------------------
+    \begin{SideBar}{\ColorBackground}{\ColorTextSide}
+        
+        %%% Skills
+        \TextSeparatorBis{\ColorHighlight}{Skills}{}
+        
+        \Label{\ColorHighlight}{Math \& Analysis}
+        \Label{\ColorHighlight}{Physics}
+        \Label{\ColorHighlight}{Coding}
+        \Label{\ColorHighlight}{Designing}
+        \Label{\ColorHighlight}{Experience}
+        
+        \vspace*{0.5cm}
+         \begin{ItemList}{\ColorHighlight}
+         \item [\faCodeFork]  Python, Matlab, R, C, LaTeX
+            \item [\faCubes]  Solidworks \& AutoCAD  
+        \end{ItemList}
+        \vspace*{0.5cm}
+        
+        \TextSeparatorBis{\ColorHighlight}{Relevant Course Work}{}
+
+
+        \begin{ItemList}{\ColorHighlight}
+            \item [\faSpaceShuttle] Space Sciences, Astrodynamics
+            \item [\faPlane]  Aerodynamics, Flight Mechanics
+            \item [\faCubes]  Solid Mechanics \& Designing Mechanical Components
+            \item [\faBook]  Physical Mechanics I \& II,
+        \end{ItemList}
+
+        \TextSeparatorBis{\ColorHighlight}{Skill Distribution}{}
+
+
+        \begin{SpiderDiagram}{\ColorTextSide}{\ColorHighlight}
+            \addSkill{Math \& Analysis}{5}
+            \addSkill{Experience}{2}
+            \addSkill{Coding}{4}
+            \addSkill{Physics}{5}
+            \addSkill{Design}{3}
+        \end{SpiderDiagram}
+
+        \vspace*{1cm}
+
+        %%% Languages
+        \TextSeparatorBis{\ColorHighlight}{Other skills}{}
+
+        \begin{SkillGauges}{\ColorHighlight}
+            \addGauge{Python}{5}
+            \addGauge{MATLAB}{4}
+            \addGauge{R}{3}
+            \addGauge{C}{2}
+            \addGauge{LaTeX}{5}
+        \end{SkillGauges}
+    \end{SideBar}
+
+    
+
+    %----------------------------------------------------------------------------------------
+    %	Picture
+    %----------------------------------------------------------------------------------------
+    \DefineProfile{\ColorOther}{\ColorTextSide}{img/spider.png}
+
+
+
+
+    %----------------------------------------------------------------------------------------
+    %	Main
+    %----------------------------------------------------------------------------------------
+    \begin{MainPart}
+
+    %%% Experiences 
+    \MainTitle{\ColorHighlight}{\ColorTextMain}{Experiences}
+    \Experience
+        {\ColorHighlight}
+		{Research Intern}
+		{LUNAR-BC Program (Langston University S.R.I. \& NASA)}
+        {June 2020-August 2020}
+        {           \vspace*{0.5cm}
+            Our job was to research plants and probiotics that would help alleviate immune dysregulation for
+crew members on their journey to Mars, then report our findings to our mentors and colleagues
+at weekly meetings.\\
+                   \vspace*{0.5cm} 
+        }
+
+
+    
+    %%% Education
+    \MainTitle{\ColorHighlight}{\ColorTextMain}{Education}
+    \Experience
+        {\ColorHighlight}
+		{Bachelor's in Science}
+		{University of Oklahoma}
+        {Expected December 2023}
+        {           \vspace*{0.5cm}
+            Engineering Physics major with an Aerospace Design Sequence. \\
+                    \vspace*{0.5cm}  
+        }
+    \Experience
+        {\ColorHighlight}
+		{Mathmatics Minor}
+		{University of Oklahoma}
+        {Expected December 2023}
+        {           \vspace*{0.5cm}
+            With courses MATH 4383 Applied Modern Algebra \& MATH 4753 Applied Statistical Methods. \\
+                    \vspace*{0.5cm}  
+        }
+    \Experience
+        {\ColorHighlight}
+		{Associates in Science}
+		{Rose State College}
+        {May 2020}
+        {           \vspace*{0.5cm}
+            Double majored in Physics and Mechanical/Aerospace Engineering.\\
+                    \vspace*{0.5cm}
+        }
+
+
+    %%% Activities
+    \MainTitle{\ColorHighlight}{\ColorTextMain}{Activities}
+    \vspace*{0.5cm}
+        \begin{ItemList}{\ColorHighlight}
+            \item [\faMortarBoard] Capstone: Creating an open-source Asteroid gravitational field simulation for educational purposes
+            \item [\faRa] Aspiring musician and artist in my free time
+        \end{ItemList}
+
+
+    \end{MainPart}
+
+    
+
+\end{document}
+
+
